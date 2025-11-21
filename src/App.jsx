@@ -8,9 +8,9 @@ function App() {
   return (
       <div className='bg-base-200 flex flex-col min-h-screen'>
         <div className='flex items-center justify-center py-10'>
-          <div className='card py-5 w-96 md:w-1/2 bg-base-300 flex items-center justify-center shadow-2xl rounded-2xl'>
+          <div className='card py-5 w-10/12 md:w-1/2 bg-base-300 flex items-center justify-center shadow-2xl rounded-2xl'>
               <div className='avatar'>
-                <div className='w-50 rounded-full border border-base-300'>
+                <div className='w-52 rounded-full border border-base-300'>
                   <img src="/images/profile-putra.webp" alt="Profile Putra"/>
                 </div>
               </div>
@@ -73,7 +73,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='relative bottom-0 w-full'>
+        <div className='sticky bottom-0 w-full'>
           <Wavify />
         </div>
       </div>
