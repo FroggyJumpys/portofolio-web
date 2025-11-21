@@ -73,7 +73,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='sticky bottom-0 w-full'>
+        <div className='absolute bottom-0 w-full'>
           <Wavify />
         </div>
       </div>
