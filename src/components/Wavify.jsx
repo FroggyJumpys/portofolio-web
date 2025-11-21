@@ -5,7 +5,7 @@ const Wavify = () => {
         <Wave
             fill='#6D94C5'
             paused={false}
-            style={{ display: 'flex' }}
+            style={{ display: 'flex', height: 'vh-100' }}
             options={{
                 height: 10,
                 amplitude: 40,
