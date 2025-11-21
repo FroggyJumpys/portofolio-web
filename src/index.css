@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+@plugin 'daisyui';
+@plugin "daisyui/theme" {
+  name: "porto-sunset";
+  default: true;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: #FF9D00;
+  --color-base-200: #FFCF71;
+  --color-base-300: #EF7722;
+  --color-base-content: oklch(21% 0.006 285.885);
+  --color-primary: oklch(55% 0.163 48.998);
+  --color-primary-content: oklch(93% 0.034 272.788);
+  --color-secondary: oklch(59% 0.249 0.584);
+  --color-secondary-content: oklch(94% 0.028 342.258);
+  --color-accent: #fdc918;
+  --color-accent-content: oklch(38% 0.063 188.416);
+  --color-neutral: #7B4019;
+  --color-neutral-content: oklch(90.7% 0.000 286.3);
+  --color-info: #6D94C5;
+  --color-info-content: oklch(20.2% 0.066 243.2);
+  --color-success: #7ADAA5;
+  --color-success-content: oklch(14.4% 0.077 168.9);
+  --color-warning: #FF9B17;
+  --color-warning-content: #131104;
+  --color-error: #F16767;
+  --color-error-content: #1e0218;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.5rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
