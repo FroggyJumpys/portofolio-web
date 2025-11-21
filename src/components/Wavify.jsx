@@ -7,10 +7,10 @@ const Wavify = () => {
             paused={false}
             style={{ display: 'flex', height: 'vh-100' }}
             options={{
-                height: 10,
+                height: 30,
                 amplitude: 40,
                 speed: 0.2,
-                points: 3
+                points: 4
             }}
         />
     )
