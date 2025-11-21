@@ -6,7 +6,7 @@ import Wavify from './components/Wavify'
 
 function App() {
   return (
-      <div className='bg-base-200 flex flex-col min-h-screen overflow-hidden'>
+      <div className='bg-base-200 flex flex-col min-h-screen'>
         <div className='flex items-center justify-center py-10'>
           <div className='card py-5 w-96 md:w-1/2 bg-base-300 flex items-center justify-center shadow-2xl rounded-2xl'>
               <div className='avatar'>
@@ -23,7 +23,7 @@ function App() {
                     About
                   </button>
                   <dialog id='about-modal' className='modal'>
-                    <div className='modal-box wx-30 md:wx-50 text-accent bg-base-300'>
+                    <div className='modal-box w-full max-w-sm md:max-w-md overflow-y-auto max-h-screen text-accent bg-base-300'>
                       <div className='flex left-0 text-justify text-2xl'>
                         <h3>Namaku Muhammad Putra Ramadhan</h3>
                       </div>
@@ -53,7 +53,7 @@ function App() {
                     Projects
                   </button>
                   <dialog id='projects-modal' className='modal'>
-                    <div className='modal-box wx-30 md:wx-50 text-accent bg-base-300'>
+                    <div className='modal-box w-full max-w-sm md:max-w-md overflow-y-auto max-h-screen text-accent bg-base-300'>
                       <h3>Belum ada bang ehek</h3>
                     </div>
                     <form method='dialog' className='modal-backdrop'>
@@ -62,20 +62,18 @@ function App() {
                   </dialog>
                 </div>
                 <div className='mt-5 mb-0 flex justify-center gap-5'>
-                  <button className='btn'>
+                  <a className='btn' href="https://www.instagram.com/froggyjumpys?igsh=MWplejloMWMydXNscQ==" target='_blank'>Instagram
                     <img src="/images/insta-logo.webp" alt="logo-insta" className='w-5'/>
-                    <a href="https://www.instagram.com/froggyjumpys?igsh=MWplejloMWMydXNscQ==" target='_blank'>Instagram</a>
-                  </button>
-                  <button className='btn'>
+                  </a>
+                  <a className='btn' href="https://github.com/FroggyJumpys" target='_blank'>Github
                     <img src="/images/github-logo.webp" alt="logo-github" className='w-5' />
-                    <a href="https://github.com/FroggyJumpys" target='_blank'>Github</a>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className='absolute bottom-0 w-full'>
+        <div className='relative bottom-0 w-full'>
           <Wavify />
         </div>
       </div>

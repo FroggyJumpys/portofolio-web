@@ -8,8 +8,8 @@ const Wavify = () => {
             style={{ display: 'flex' }}
             options={{
                 height: 10,
-                amplitude: 50,
-                speed: 0.15,
+                amplitude: 40,
+                speed: 0.2,
                 points: 3
             }}
         />
